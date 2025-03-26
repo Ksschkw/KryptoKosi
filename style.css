@@ -1,0 +1,88 @@
+:root {
+    --neon-blue: #00f3ff;
+    --dark-bg: #0a0a1a;
+    --silver: #c0c0c0;
+}
+
+body {
+    background: var(--dark-bg);
+    color: var(--silver);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: var(--neon-blue);
+    text-align: center;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 243, 255, 0.1);
+    border: 1px solid var(--neon-blue);
+    border-radius: 5px;
+    color: var(--silver);
+    margin-bottom: 10px;
+}
+
+.sort-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.sort-buttons button {
+    background: transparent;
+    border: 1px solid var(--neon-blue);
+    color: var(--neon-blue);
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sort-buttons button:hover {
+    background: rgba(0, 243, 255, 0.1);
+}
+
+.prices-container {
+    display: grid;
+    gap: 10px;
+}
+
+.price-item {
+    background: rgba(0, 243, 255, 0.05);
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(0, 243, 255, 0.1);
+}
+
+.coin-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.coin-icon {
+    width: 20px;
+    height: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: var(--neon-blue);
+}

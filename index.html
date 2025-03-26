@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Krypto-Kosi Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💰 KryptoKosi Tracker</h1>
+            <div class="filters">
+                <input type="text" id="searchInput" placeholder="Search crypto..." class="search-bar">
+                <div class="sort-buttons">
+                    <button onclick="sortCoins('market_cap')">Market Cap</button>
+                    <button onclick="sortCoins('trending')">Trending</button>
+                </div>
+            </div>
+        </header>
+
+        <div id="prices" class="prices-container"></div>
+        
+        <footer>✨ Made with ♡ by <a href="https://kosisochukwu.onrender.com">Kosi</a></footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
